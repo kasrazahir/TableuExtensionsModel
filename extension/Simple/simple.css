@@ -1,0 +1,16 @@
+.buttons {
+    text-align: center;
+}
+
+.fullsize {
+    margin: 5px;
+    width:50%;
+}
+
+.halfsize {
+    width: 25%
+}
+
+.half-buttons{
+    margin-top:10px;
+}

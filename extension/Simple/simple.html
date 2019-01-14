@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Datasources Sample</title>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
+    <link rel="stylesheet" href="./simple.css" >
+    <!-- Extensions Library (this will be hosted on a CDN eventually) -->
+    <script src="../tableau-extensions-1.latest.js"></script>
+
+    <!-- Our extension's code -->
+    <script src="./simple.js"></script>
+  </head>
+  <body>
+      <!-- More dataSource info modal -->
+      <div class="data" id="data" role="dialog">
+        <img class="figure" id = "figure" style="width: 100%" src="../fig.png" > 
+      </div>
+      <div class="buttons">
+        <button id="cluster" class="btn btn-primary fullsize">
+          Cluster
+        </button>
+        <button id="outlier" class="btn btn-success fullsize">
+          Outliers
+        </button>
+        <div class="half-buttons"> 
+          <button id="reset" class="btn btn-default btn-lg halfsize" aria-label="Left Align">
+            <span class="glyphicon glyphicon-repeat" aria-hidden="true"></span>
+          </button>
+          <button id="save" class="btn btn-default btn-lg halfsize" aria-label="Left Align">
+            <span class="glyphicon glyphicon-floppy-save" aria-hidden="true"></span>
+          </button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+    </div>
+  </body>
+</html>
